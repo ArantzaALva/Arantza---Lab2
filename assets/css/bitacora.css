@@ -1,0 +1,14 @@
+.sesiones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.sesiones img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

@@ -1,3 +1,20 @@
 .images-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.images-container img {
+    width: 100%;
+    height: auto;
+}
+
+.link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    margin-top: 0px;
 }
